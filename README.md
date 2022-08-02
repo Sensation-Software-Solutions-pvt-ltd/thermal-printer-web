@@ -14,18 +14,14 @@ cd thermal-printer-web && yarn or npm install
 #### 2. Running the APP
 
 Run this command to start the development server and to start your app:
-```
 npm start
-```
 
 Or, if you have electron installed globally:
-```
 electron .
-```
 
 That's it! Cool, right?
 
-
+```
 There are two APIs:
 
 1. For getting information about the available printers:
