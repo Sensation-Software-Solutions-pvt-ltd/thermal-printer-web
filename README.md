@@ -11,7 +11,7 @@ git clone https://github.com/Sensation-Software-Solutions-pvt-ltd/thermal-printe
 # Navigate to clonned folder and Install dependencies
 cd thermal-printer-web && yarn or npm install
 
-#### 2. Running the APP
+2. Running the APP
 
 Run this command to start the development server and to start your app:
 npm start
@@ -25,11 +25,11 @@ That's it! Cool, right?
 There are two APIs:
 
 ```
-###1. For getting information about the available printers:
-    http://localhost:8080/list //GET
+1. For getting information about the available printers:
+        http://localhost:8080/list //GET
     
-###2. For sending the print command to the Zebra printer:
-    http://localhost:8080/print // POST
+2. For sending the print command to the Zebra printer:
+        http://localhost:8080/print // POST
                 Request Body :
                                {
                                   "printerName": "Microsoft Print to PDF",
