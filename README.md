@@ -24,9 +24,11 @@ That's it! Cool, right?
 ```
 There are two APIs:
 
-1. For getting information about the available printers:
+```
+###1. For getting information about the available printers:
     http://localhost:8080/list //GET
-2. For sending the print command to the Zebra printer:
+    
+###2. For sending the print command to the Zebra printer:
     http://localhost:8080/print // POST
                 Request Body :
                                {
